@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Basic Javascript MVC pattern - codeniche.com</title>
+  <meta name="generator" content="TextMate http://macromates.com/">
+  <meta name="author" content="Scott Harvey">
+  <link href='css/master.css' media='screen' rel='stylesheet' type='text/css' />
+</head>
+<body>
+  <div id="container">
+    <h1>Basic Javascript MVC pattern</h1>
+    <div id="flash"></div>
+    <div id="rooms">
+      <div id="room_1" class="room">
+        <p>Park view</p>
+        <div class="tooltip">Available</div>
+      </div>
+      <div id="room_2" class="room">
+        <p>Ocean view</p>
+        <div class="tooltip">Sold Out</div>
+      </div>
+      <div id="room_3" class="room">
+        <p>Superior room</p>
+        <div class="tooltip">One Left</div>
+      </div>
+      <div id="room_4" class="room">
+        <p>Pool side</p>
+        <div class="tooltip">Available</div>
+      </div>
+    </div>
+    <br />
+    <p><a href="rooms/new" id="new_room">Add another room</a></p>
+    <br />
+    <p><a href="rooms/new" id="show_flash">Show a flash message</a></p><a
+    <p>
+  </div>
+  <script type="text/javascript" charset="utf-8">
+    var views = {};
+  </script>
+  <script src='javascript/vendor/jquery.js' type='text/javascript'></script>
+  <script src='javascript/models/room.js' type='text/javascript'></script>
+  <script src='javascript/helpers/application_helper.js' type='text/javascript'></script>
+  <script src='javascript/views/rooms/room.js' type='text/javascript'></script>
+  <script src='javascript/controllers/rooms_controller.js' type='text/javascript'></script>
+</body>
+</html>

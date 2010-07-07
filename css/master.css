@@ -1,0 +1,45 @@
+body {
+  font-family: helvetica, verdana;
+}
+
+#container {
+  width: 500px;
+  margin: 40px auto;
+}
+
+p {
+  margin: 0;
+}
+
+.room {
+  background: #DFA200;
+  color: #000;
+  margin: 1px auto 0 auto;
+  padding: 25px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.dark {
+  background: #000;
+  color: #FFF;
+}
+
+.tooltip {
+  position: absolute;
+  background: #000;
+  color: #FFFFFF;
+  left: 90%;
+  top: 5%;
+  white-space: nowrap;
+  padding: 5px;
+  display: none;
+}
+
+#flash p {
+  padding: 20px;
+  background: #AF0000;
+  color: #FFFFFF;
+  text-align: center;
+}
