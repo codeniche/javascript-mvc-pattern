@@ -1,5 +1,6 @@
 body {
   font-family: helvetica, verdana;
+  background: #ddd;
 }
 
 #container {
@@ -7,13 +8,30 @@ body {
   margin: 40px auto;
 }
 
+h1 {
+  margin: 0;
+  float: left;
+}
+
 p {
   margin: 0;
 }
 
+.nav {
+  float: right;
+  padding-top: 20px;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
 .room {
-  background: #DFA200;
-  color: #000;
+  background: #EB8320 url("../images/room-background.jpg") repeat-x top left;
+  border: 2px solid #000;
+  clear: both;
+  color: #FFF;
   margin: 1px auto 0 auto;
   padding: 25px 0;
   position: relative;
@@ -40,6 +58,7 @@ p {
 #flash p {
   padding: 20px;
   background: #AF0000;
+  clear: both;
   color: #FFFFFF;
   text-align: center;
 }

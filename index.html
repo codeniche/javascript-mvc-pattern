@@ -11,7 +11,12 @@
 </head>
 <body>
   <div id="container">
-    <h1>Basic Javascript MVC pattern</h1>
+    <p class="nav">
+      <a href="rooms/new" id="new_room">add room</a>
+      <a href="rooms/new" id="show_flash">show message</a>
+    </p>
+    <h1>Rooms</h1>
+    
     <div id="flash"></div>
     <div id="rooms">
       <div id="room_1" class="room">
@@ -31,11 +36,6 @@
         <div class="tooltip">Available</div>
       </div>
     </div>
-    <br />
-    <p><a href="rooms/new" id="new_room">Add another room</a></p>
-    <br />
-    <p><a href="rooms/new" id="show_flash">Show a flash message</a></p><a
-    <p>
   </div>
   <script type="text/javascript" charset="utf-8">
     var views = {};

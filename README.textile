@@ -1,3 +1,3 @@
 Organising your Javascript files can be a hassle at times especially when your application starts to grow in size. This simple Javascript MVC pattern will help you keep all your Javascript code logically separated and easy to find. On top of this we are not going to be using any third party libraries to achieve this which keeps everything nice and light.
 
-"read the full tutorial":http://www.codeniche.com/javascript-mvc-pattern
+"read the full tutorial":http://codeniche.com/basic-javascript-mvc-pattern/
